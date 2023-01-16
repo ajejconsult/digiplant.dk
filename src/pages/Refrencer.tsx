@@ -8,6 +8,7 @@ import NilsPic from "../assets/nils-pic.png";
 import NathanPic from "../assets/nathan-pic.png";
 import DigiFarm from "../assets/digifarm.png";
 import FoodOrigin from "../assets/foodorigin.png";
+import theme from "../styles/theme";
 
 const Refrencer = () => {
     const cofounders = {
@@ -39,7 +40,17 @@ const Refrencer = () => {
                         Mere end 2000 timers erfaring - fordelt på flere end 30 forskellige projekter
                     </Typography>
                 </Box>
-                <Grid container justifyContent={"center"} spacing={8} mt={4}>
+                <Grid
+                    container
+                    justifyContent={"center"}
+                    spacing={8}
+                    sx={{
+                        mt: 4,
+                        [theme.breakpoints.down("lg")]: {
+                            px: 5,
+                            mt: 0,
+                        },
+                    }}>
                     {Object.entries(cofounders).map(([key, val], index: number) => (
                         <Grid item md={4} key={index}>
                             <RefrencerProfile cofounderName={key} textDiscreption={val.description} profile={val.pic} logo={val.logo} />

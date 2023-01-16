@@ -20,15 +20,17 @@ const MobileHeader = () => {
                 }}
                 component="header">
                 <Box display="flex" alignItems={"center"} p={1}>
-                    <Box display="flex" alignItems={"center"} flexGrow={1}>
-                        <CardMedia src={LogogIcon} component="img" sx={{ width: "1.5rem", mr: 1 }} />
+                    <Link to="/" style={{ textDecoration: "none", flexGrow: 1 }}>
+                        <Box display="flex" alignItems={"center"}>
+                            <CardMedia src={LogogIcon} component="img" sx={{ width: "1.5rem", mr: 1 }} />
 
-                        <Typography variant="h5" fontFamily={"MontHeavy"}>
-                            DIGI
-                            <br></br>
-                            <span>Plant</span>
-                        </Typography>
-                    </Box>
+                            <Typography variant="h5" fontFamily={"MontHeavy"}>
+                                DIGI
+                                <br></br>
+                                <span>Plant</span>
+                            </Typography>
+                        </Box>
+                    </Link>
                     <ButtonBase onClick={() => setOpen(!open)}>
                         <BurgerMenu isOpen={open} />
                     </ButtonBase>
@@ -50,7 +52,7 @@ const MobileHeader = () => {
                         <Link to="/cv">
                             <Typography variant="body2">CV</Typography>
                         </Link>
-                        <Link to="">
+                        <Link to="refrencer">
                             <Typography variant="body2">Refrencer</Typography>
                         </Link>
                         <Link to="/kontakt">
