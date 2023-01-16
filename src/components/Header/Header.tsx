@@ -8,7 +8,7 @@ import LogogIcon from "../../assets/logoSymbol.png";
 const Header = () => {
     const location = useLocation();
     console.log(location);
-    const GreenFlagDisabledPages = ["/koontakt", "/cv", "/priser"];
+    const GreenFlagDisabledPages = ["/koontakt", "/cv", "/priser", "/"];
     return (
         <div>
             <Box
