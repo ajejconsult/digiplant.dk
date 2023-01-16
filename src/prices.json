@@ -1,0 +1,26 @@
+{
+    "PAKKE 1": {
+        "Månedligt abonnement": "7.500 DKK",
+        "Inkl. timer pr. mdr.": "10 timer",
+        "Pris pr. time herefter": "750 kr/t",
+        "Forudbetaling": "1 måned",
+        "Minimum": "3 måneder",
+        "Kørsel pr. km": "3,76 kr"
+    },
+    "PAKKE 2": {
+        "Månedligt abonnement": "15.000 DKK",
+        "Inkl. timer pr. mdr.": "20 timer",
+        "Pris pr. time herefter": "500 kr/t",
+        "Forudbetaling": "1 måned",
+        "Minimum": "-",
+        "Kørsel pr. km": "3,76 kr"
+    },
+    "PAKKE 3": {
+        "Månedligt abonnement": "45.000 DKK",
+        "Inkl. timer pr. mdr.": "75 timer",
+        "Pris pr. time herefter": "efter aftale",
+        "Forudbetaling": "1 måned",
+        "Minimum": "-",
+        "Kørsel pr. km": "efter aftale"
+    }
+}
