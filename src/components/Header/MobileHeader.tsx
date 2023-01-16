@@ -52,7 +52,7 @@ const MobileHeader = () => {
                         <Link to="/cv">
                             <Typography variant="body2">CV</Typography>
                         </Link>
-                        <Link to="refrencer">
+                        <Link to="/refrencer">
                             <Typography variant="body2">Refrencer</Typography>
                         </Link>
                         <Link to="/kontakt">

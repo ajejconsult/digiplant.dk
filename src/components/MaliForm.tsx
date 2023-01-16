@@ -1,6 +1,5 @@
 import { Button, Grid, TextField, TextFieldProps, Typography } from "@mui/material";
 import React, { useRef } from "react";
-import { useNavigate, redirect } from "react-router-dom";
 
 const MaliForm = () => {
     const navn = useRef<TextFieldProps>();
@@ -8,7 +7,6 @@ const MaliForm = () => {
     const mail = useRef<TextFieldProps>();
     const subject = useRef<TextFieldProps>();
     const mailBody = useRef<TextFieldProps>();
-    let navigate = useNavigate();
 
     function handleSend() {
         console.log(navn.current?.value);
