@@ -29,7 +29,7 @@ const Kontakt = () => {
                 spacing={4}>
                 <Grid item md={4} xs={12} container justifyContent={"center"}>
                     <Mlink
-                        href={`https://www.google.com/maps/dir/?api=1&destination=48.4169113,1.4905021,17`}
+                        // href={`https://www.google.com/maps/dir/?api=1&destination=48.4169113,1.4905021,17`}
                         sx={{
                             ":hover": {
                                 color: theme.palette.primary.main,
