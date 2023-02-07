@@ -44,7 +44,7 @@ const CvPage = () => {
                     justifyContent={"center"}
                     sx={{
                         position: "absolute",
-                        bottom: "-5rem",
+                        bottom: "-11rem",
                         [theme.breakpoints.down("xl")]: {
                             position: "relative",
                             top: "-2rem",
@@ -91,7 +91,7 @@ const CvPage = () => {
                     alignItems: "center",
                     px: 40,
                     pb: 20,
-                    pt: 4,
+                    pt: 29,
                     [theme.breakpoints.down("lg")]: {
                         px: 5,
                         py: 10,
